@@ -1,0 +1,2 @@
+c-c c-j: line mode. Move around in ansi-term
+c-c c-k: char mode. Back to typing in ansi-term

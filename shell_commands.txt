@@ -1,0 +1,2 @@
+"shopt -s globstar" - enabels global stars (**) which lets you patternmatch subdirectories
+

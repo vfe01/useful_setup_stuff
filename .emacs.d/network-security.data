@@ -1,0 +1,4 @@
+(
+ (:id "sha1:ccfd2cc2a08c89a9b10969be8c1e926954d53e28" :fingerprint "sha1:b7:97:ad:dc:0a:0e:90:b6:08:64:4c:33:e4:f4:75:18:c8:d9:52:f3" :host "stable.melpa.org:443" :conditions (:expired :invalid))
+ (:id "sha1:6d4eb958390599243ba9f5035cb671fa8dd6a93a" :fingerprint "sha1:87:3d:e1:4e:9a:ca:32:fc:8e:ee:13:54:02:f7:42:da:d4:39:76:2c" :host "elpa.gnu.org:443" :conditions (:expired :invalid))
+)

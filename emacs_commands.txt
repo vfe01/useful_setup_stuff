@@ -3,3 +3,5 @@ c-c c-k: char mode. Back to typing in ansi-term
 
 c-x ^: change size of a buffer vertically
 c-x {: change size of a buffer horizontally ({ for the left, } for the right)
+
+M-x indent-region: "autoformat"

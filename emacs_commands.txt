@@ -3,3 +3,9 @@ c-c c-k: char mode. Back to typing in ansi-term
 
 c-x ^: change size of a buffer vertically
 c-x {: change size of a buffer horizontally ({ for the left, } for the right)
+
+c-l: center buffer view to cursor
+c-v: scroll up and down (amount of lines is given by m-*integer*)
+
+c-spc c-spc: set mark
+c-u c-spc: jump to mark

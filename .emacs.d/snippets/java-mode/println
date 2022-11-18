@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: println java
+# key: sysout
+# --
+
+System.out.println($0)

@@ -5,3 +5,5 @@ c-x ^: change size of a buffer vertically
 c-x {: change size of a buffer horizontally ({ for the left, } for the right)
 
 M-x indent-region: "autoformat"
+
+M-x describe-... : t.ex. variable för att se vad en variabel har för värde

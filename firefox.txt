@@ -1,0 +1,4 @@
+Ctrl + tab - swap tabs (shift for other direction)
+
+Användbara inställningar
+Search for text when you start typing

@@ -2,3 +2,9 @@
 
 for i in `seq 1 10`; do echo $i; done ---- for-loop i CLI bash
 
+>> : append to file
+
+cat > filename: börja skriva filen filename direkt i terminalen och
+sluta skriva med ctrl + d
+
+

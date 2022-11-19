@@ -1,0 +1,1 @@
+Bara skriv command.sh så llöser det sig

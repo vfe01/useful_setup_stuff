@@ -1,2 +1,4 @@
 "shopt -s globstar" - enabels global stars (**) which lets you patternmatch subdirectories
 
+for i in `seq 1 10`; do echo $i; done ---- for-loop i CLI bash
+

@@ -1,16 +1,20 @@
-((("flycheck-inline-mode" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("shell-pop" .
-   [0 0 0 0 0 1 0 0 0])
-  ("yas-global-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("projectile" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("Zenburn" .
-   [0 0 0 0 0 0 1])
-  ("zenburn" .
-   [1 0 0 0 0 0 0])
+((("add-to-list" .
+   [0 0 0 0 0 0 0 1 0 0 0])
   ("zenburn-theme" .
    [1 0 0 0 0 0 1 0 0 0 0 0 1])
-  ("add-to-list" .
-   [0 0 0 0 0 0 0 1 0 0 0])))
+  ("zenburn" .
+   [1 0 0 0 0 0 0])
+  ("Zenburn" .
+   [0 0 0 0 0 0 1])
+  ("projectile" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("yas-global-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("shell-pop" .
+   [0 0 0 0 0 1 0 0 0])
+  ("flycheck-inline-mode" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ioopm_database_t" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("calloc" .
+   [1 0 0 0 0 0])))

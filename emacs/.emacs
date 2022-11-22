@@ -32,6 +32,9 @@
 ;;(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 ;;(define-key shell-pop-m (kdb "C-x t") 'shell-pop)
 
+(setq c-eldoc-includes "`pkg-config gtk+-2.0 --cflags` -I./ -I../ ")
+(load "~/.emacs.d/c-eldoc")
+(add-hook 'c-mode-hook 'c-turn-on-eldoc-mode)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

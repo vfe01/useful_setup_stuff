@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: database function inlupp 2
+# key: dbf
+# --
+void ioopm_database_(ioopm_database_t db) {
+     $0
+     return;
+}

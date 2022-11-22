@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: println macro
+# key: pl
+# --
+println!("$0");

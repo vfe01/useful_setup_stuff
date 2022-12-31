@@ -1,0 +1,22 @@
+definiera en funktion:
+function my_function {
+	 
+
+$1, $2, $3, ... , $n -	argument som funktionen anropats med
+$0 - funktionens namn
+$# - antalet argument som funktionen anropats med
+
+$* eller $@ - alla argument
+"$*" - en sträng som innehåller alla argument
+"$@" - en sträng för varje argument
+
+local - skriv innan variabel för att definiera icke-global variabel
+return - skriver ett värde till variabeln $?
+
+----------
+if-statements
+
+    if [ test ]
+    then
+        ...
+    fi

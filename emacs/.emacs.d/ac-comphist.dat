@@ -1,20 +1,706 @@
-((("add-to-list" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("zenburn-theme" .
-   [1 0 0 0 0 0 1 0 0 0 0 0 1])
-  ("zenburn" .
+((("reject_accepted_offer_response" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("reject_again_response" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("create_offer_response" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0])
+  ("get_patched_listing_response" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("and" .
+   [0 0 1])
+  ("listing_patch" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("patch_listing_response" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
+  ("describe" .
+   [1 0 0 0 0 0 0 0])
+  ("get_deleted_listing_response" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("post_listing_response" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("delete_listing_response" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("beforeAll" .
+   [2 0 0 0 0 0 0 0 0])
+  ("update" .
+   [1 0 0 0 0 0])
+  ("other_bid_post_request" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("patch" .
+   [5 0 0 0 0])
+  ("it" .
+   [7 0])
+  ("id_of_listings" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("listing" .
+   [6 0 0 0 0 0 0])
+  ("listings_in_offer_is_available" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("listings" .
+   [1 0 0 0 0 0 0 0])
+  ("listings_in_offer" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("number_of_bids" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("_body" .
+   [12 0 0 0 0])
+  ("find-file" .
+   [1 0 0 0 0 0 0 0 0])
+  ("variable" .
+   [0 0 0 2 0 0 0 1])
+  ("router" .
+   [3 0 0 0 0 0])
+  ("rejected" .
+   [1 0 0 0 0 0 0 0])
+  ("accepted" .
+   [1 0 0 0 0 0 0 0])
+  ("user_receiving_offer" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("user_making_offer" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("param" .
+   [1 0 0 0 0])
+  ("js-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("js2-mode" .
+   [1 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("rainbow-delimiters" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("kdb" .
+   [2 0 0])
+  ("profile_picture_path" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("owner_id" .
+   [3 0 0 0 0 0 0 0])
+  ("image_path" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("creation_date" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("the" .
+   [1 0 0])
+  ("speak" .
+   [1 0 0 0 0])
+  ("Ville" .
+   [1 0 0 0 0])
+  ("push_front" .
+   [0 0 0 1 0 0 0 0 0 1])
+  ("scared_phrases" .
+   [0 0 1 0 1 1 0 0 0 0 0 0 0 0])
+  ("references" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("unsigned" .
+   [5 0 0 0 0 0 0 0])
+  ("foreign" .
    [1 0 0 0 0 0 0])
-  ("Zenburn" .
-   [0 0 0 0 0 0 1])
-  ("projectile" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("yas-global-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("shell-pop" .
+  ("notNull" .
+   [2 0 0 0 0 0 0])
+  ("integer" .
+   [6 0 0 0 0 0 0])
+  ("string" .
+   [8 0 0 0 0 0])
+  ("user_id" .
+   [8 0 0 0 0 0 0])
+  ("table" .
+   [29 0 0 0 0])
+  ("knex" .
+   [11 0 0 0])
+  ("env" .
+   [3 0 0])
+  ("process" .
+   [3 0 0 0 0 0 0])
+  ("age" .
+   [1 0 0])
+  ("errmsg" .
+   [2 0 0 0 0 0])
+  ("sql" .
+   [3 0 0])
+  ("cursor" .
+   [2 0 0 0 0 0])
+  ("connection" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("sqlite3" .
+   [0 0 0 0 1 0 0])
+  ("close_all_pipe_fds" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("out_fd" .
+   [2 0 0 0 0 0])
+  ("in_fd" .
+   [2 0 0 0 0])
+  ("EXIT_SUCCESS" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("wait" .
+   [14 0 0 0])
+  ("child_b" .
+   [1 0 0 0 0 0 0])
+  ("child_a" .
+   [1 0 0 0 0 0 0])
+  ("execlp" .
+   [1 0 0 0 0 0])
+  ("READ" .
+   [15 0 0 0])
+  ("WRITE" .
+   [14 0 0 0 0])
+  ("exit" .
+   [5 0 0 0])
+  ("EXIT_FAILURE" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("sender_child" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("pid_t" .
+   [1 0 0 0 0])
+  ("fork" .
+   [5 0 0 0])
+  ("fac" .
+   [7 0 0])
+  ("main" .
+   [1 0 0 0])
+  ("free_space" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("NULL" .
+   [16 0 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("heap" .
+   [1 0 0 0])
+  ("h_get_page" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Conditional" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Assignment" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("expr" .
+   [2 0 0 0])
+  ("isFunctionParsingMode" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("parser" .
+   [1 0 0 0 0 0])
+  ("functionParsingMode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("is" .
+   [1 0])
+  ("@Test" .
+   [2 0 0 0 0])
+  ("new_entry_p" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("next" .
+   [1 0 0 0])
+  ("sentinel" .
+   [1 0 0 0 0 0 0 0])
+  ("ioopm_linked_list_insert" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ioopm_linked_list_prepend" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("remove" .
+   [1 0 0 0 0 0])
+  ("to" .
+   [1 0])
+  ("any" .
+   [1 0 0])
+  ("have" .
+   [1 0 0 0])
+  ("doesn" .
+   [1 0 0 0 0])
+  ("user" .
+   [6 0 0 0])
+  ("Cart" .
+   [1 0 0 0])
+  ("user_name" .
+   [2 0 0 0 0 0 0 0 0])
+  ("ioopm_database_create_cart" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ioopm_database_replenish_stock" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("start" .
+   [1 0 0 0 0])
+  ("page" .
+   [1 0 0 0])
+  ("p_start_address" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("ptr_to_int" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("buckets" .
+   [2 0 0 0 0 0 0])
+  ("key" .
+   [4 0 0])
+  ("elem_t" .
+   [1 0 0 0 0 0])
+  ("hash_ptr" .
+   [1 0 0 0 0 0 0 0])
+  ("in" .
+   [16 0])
+  ("bool" .
+   [2 0 0 0])
+  ("ptr_v" .
+   [7 0 0 0 0])
+  ("compare_eq_ptr" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("merch_name_field_adress" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("name" .
+   [5 0 0 0])
+  ("merch" .
+   [15 0 0 0 0])
+  ("merch_t" .
+   [3 0 0 0 0 0 0])
+  ("db" .
+   [18 0])
+  ("lookup_merch" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("new_merch_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user_cart" .
+   [2 0 0 0 0 0 0 0 0])
+  ("int_v" .
+   [2 0 0 0 0])
+  ("merch_name" .
+   [11 0 0 0 0 0 0 0 0 0])
+  ("System" .
+   [0 0 1 0 0 0])
+  ("crateAt" .
+   [1 0 0 0 0 0 0])
+  ("get" .
+   [6 0 0])
+  ("stackSize" .
+   [1 0 0 0 0 0 0 0 0])
+  ("size" .
+   [3 0 0 0])
+  ("printShip" .
+   [0 0 0 0 0 0 0 0 1])
+  ("stack" .
+   [3 0 0 0 0])
+  ("Character" .
+   [5 0 0 0 0 0 0 0 0])
+  ("charAt" .
+   [2 0 0 0 0 0])
+  ("crateChar" .
+   [2 0 0 0 0 0 0 0 0])
+  ("moveAmount" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("answer" .
+   [1 0 0 0 0 0])
+  ("getTopCrateLetter" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("topLetterList" .
+   [0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("getLetter" .
+   [2 0 0 0 0 0 0 0 0])
+  ("amountToMove" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("doInstruction" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("putDownLiftedCrates" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0])
+  ("liftCrates" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("length" .
+   [3 0 0 0 0 0])
+  ("add" .
+   [3 0 0])
+  ("liftedCrates" .
+   [9 0 0 0 0 0 0 0 1 0 0 0])
+  ("amount" .
+   [5 0 0 0 0 0])
+  ("moveToStack" .
+   [3 0 0 0 0 0 2 0 0 0 0])
+  ("moveFromStack" .
+   [4 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("setStacks" .
    [0 0 0 0 0 1 0 0 0])
+  ("stacks" .
+   [7 0 0 0 0 0])
+  ("ship" .
+   [5 0 0 0])
+  ("parseInt" .
+   [2 0 0 0 0 0 0 0])
+  ("Integer" .
+   [2 0 0 0 0 0 0])
+  ("instructionSplitted" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("instruction" .
+   [2 0 0 0 0 0 0 0 0 0 1])
+  ("readLine" .
+   [2 0 0 0 0 0 0 0])
+  ("appendCrate" .
+   [1 0 0 0 0 0 1 0 0 0 0])
+  ("crate" .
+   [5 0 0 0 0])
+  ("stackArray" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("potentialCrate" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("level" .
+   [5 0 0 0 0])
+  ("scanner" .
+   [6 0 0 0 0 0 0])
+  ("input" .
+   [1 0 0 0 0])
+  ("Scanner" .
+   [2 0 0 0 0 0 0])
+  ("File" .
+   [1 0 0 0])
+  ("util" .
+   [1 0 0 0])
+  ("java" .
+   [2 0 0 0])
+  ("calloc" .
+   [2 0 0 0 0 0])
+  ("ioopm_database_t" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("flycheck-inline-mode" .
    [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ioopm_database_t" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("calloc" .
-   [1 0 0 0 0 0])))
+  ("shell-pop" .
+   [0 0 0 0 0 1 0 0 0])
+  ("yas-global-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("projectile" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("Zenburn" .
+   [0 0 0 0 0 0 1])
+  ("zenburn" .
+   [1 0 0 0 0 0 0])
+  ("zenburn-theme" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("add-to-list" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("LinkedList" .
+   [14 0 0 0 0 0 0 0 0 0])
+  ("Crate" .
+   [17 0 0 0 0])
+  ("letter" .
+   [7 0 0 0 0 0])
+  ("Stack" .
+   [14 0 0 0 0])
+  ("crates" .
+   [9 0 0 0 0 0])
+  ("crateString" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("String" .
+   [8 0 0 0 0 0])
+  ("convertStringToCrate" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("convertStringToStack" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Ship" .
+   [3 0 0 0])
+  ("addLast" .
+   [1 0 0 0 0 0 0])
+  ("ioopm_database_merch_location_list" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("stdlib" .
+   [1 0 0 0 0 0])
+  ("person_t" .
+   [5 0 0 0 0 0 0 0])
+  ("person" .
+   [10 0 0 0 0 0])
+  ("s" .
+   [4])
+  ("current_adress" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("uint64_t" .
+   [8 0 0 0 0 0 0 0])
+  ("ioopm_database_merch_stock_available_for_adding_to_cart" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("quantity" .
+   [2 0 0 0 0 0 0 0])
+  ("puts" .
+   [5 0 0 1])
+  ("There" .
+   [2 0 0 0 0])
+  ("not" .
+   [1 0 0])
+  ("enough" .
+   [5 0 0 0 0 0])
+  ("available" .
+   [7 0 1 0 0 0 0 0 0])
+  ("printf" .
+   [7 0 0 0 0 0])
+  ("stock" .
+   [1 0 0 0 0])
+  ("true" .
+   [3 0 0 0])
+  ("t" .
+   [2])
+  ("a" .
+   [4])
+  ("i" .
+   [6])
+  ("enoughInStock" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("false" .
+   [2 0 0 0 0])
+  ("enough_in_stock" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cart_t" .
+   [1 0 0 0 0 0])
+  ("cart" .
+   [2 0 0 0])
+  ("ioopm_hash_table_keys" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("amount_of_merch" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ioopm_linked_list_length" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("merch_name_in_cart" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ioopm_linked_list_get" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ioopm_database_create" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("CU_ASSERT" .
+   [2 0 0 0 0 0 0 0 0])
+  ("ioopm_database_cart_is_empty" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("User1" .
+   [3 0 0 0 0])
+  ("ioopm_database_add_merch" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Candy" .
+   [3 0 0 0 0])
+  ("Tastes" .
+   [1 0 0 0 0 0])
+  ("A10" .
+   [1 0 0])
+  ("ioopm_database_add_to_cart" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("CU_ASSERT_FALSE" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ioopm_database_destroy" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cuadd" .
+   [1 0 0 0 0])
+  ("test" .
+   [1 0 0 0])
+  ("test_database_cart_is_empty" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("SIGSEGV" .
+   [1 0 0 0 0 0 0])
+  ("SIGINT" .
+   [2 0 0 0 0 0])
+  ("SIGUSR1" .
+   [1 0 0 0 0 0 0])
+  ("pause" .
+   [1 0 0 0 0])
+  ("done" .
+   [2 0 0 0])
+  ("signal" .
+   [1 0 0 0 0 0])
+  ("shutdown_server" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("first" .
+   [4 0 0 0 0])
+  ("middle" .
+   [4 0 0 0 0 0])
+  ("last" .
+   [3 0 0 0])
+  ("unknown" .
+   [2 0 0 0 0 0 0])
+  ("noCharactersRead" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sys" .
+   [1 0 0])
+  ("commands" .
+   [19 0 0 0 0 0 0 0])
+  ("cmd_t" .
+   [2 0 0 0 0])
+  ("current_command" .
+   [5 0 0 0 0 0 0 0 1 0 0 1 0 0 0])
+  ("pos" .
+   [5 0 0])
+  ("single" .
+   [4 0 0 0 0 0])
+  ("pipe" .
+   [3 0 0 0])
+  ("pipefd" .
+   [25 0 0 0 0 0])
+  ("n" .
+   [2])
+  ("close" .
+   [21 0 0 0 0])
+  ("pipefd_in" .
+   [1 0 0 0 0 0 0 0 0])
+  ("pipefd_out" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("previous_pipe_fd_out" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dup2" .
+   [3 0 0 0])
+  ("out" .
+   [11 0 0])
+  ("print_commands" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("STDOUT_FILENO" .
+   [1 0 0 0 0 0 1 1 0 1 1 0 0])
+  ("STDIN" .
+   [1 0 0 0 0])
+  ("STDIN_FILENO" .
+   [1 0 0 0 0 1 0 1 1 0 0 0])
+  ("pipeno" .
+   [3 0 0 0 0 0])
+  ("res" .
+   [17 0 0])
+  ("rc" .
+   [1 0])
+  ("DATABASE_NAME" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("raw" .
+   [3 0 0])
+  ("database" .
+   [2 0 0 0 0 0 0 0])
+  ("databaseName" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("destroy" .
+   [1 0 0 0 0 0 0])
+  ("console" .
+   [22 0 0 0 0 0 0])
+  ("err" .
+   [18 0 0])
+  ("knexInit" .
+   [2 0 0 0 0 0 0 0])
+  ("catch" .
+   [7 0 0 0 0])
+  ("then" .
+   [9 0 0 0])
+  ("log" .
+   [18 0 0])
+  ("schema" .
+   [1 0 0 0 0 0])
+  ("createTable" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("increment" .
+   [1 0 0 0 0 0 0 0 0])
+  ("primary" .
+   [1 0 0 0 0 0 0])
+  ("notNullable" .
+   [2 0 0 0 1 0 0 0 0 0 0])
+  ("offer_id" .
+   [9 0 0 0 0 0 0 0])
+  ("listing_id" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("req" .
+   [12 0 0])
+  ("select" .
+   [4 0 0 0 0 0])
+  ("const" .
+   [21 0 0 0 0])
+  ("params" .
+   [4 0 0 0 0 0])
+  ("from" .
+   [7 0 0 0])
+  ("where" .
+   [5 0 0 0 0])
+  ("id" .
+   [24 0])
+  ("app" .
+   [3 0 0])
+  ("post" .
+   [2 0 0 0])
+  ("body" .
+   [2 0 0 0])
+  ("insert" .
+   [1 0 0 0 0 0])
+  ("result" .
+   [5 0 0 1 0 0])
+  ("json" .
+   [10 0 0 0])
+  ("message" .
+   [10 0 0 0 0 0 0])
+  ("send" .
+   [5 0 0 0])
+  ("del" .
+   [2 0 0])
+  ("of" .
+   [2 0])
+  ("USER" .
+   [2 0 0 0])
+  ("tableName" .
+   [3 0 0 0 0 0 0 0 0])
+  ("url" .
+   [14 0 0])
+  ("index" .
+   [6 0 0 0 0])
+  ("url_splitted" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("client" .
+   [0 0 2 0 0 0])
+  ("getTableNameFromUrl" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("table_name" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("./.env" .
+   [1 0 0 0 0 0])
+  ("require" .
+   [5 0 0 0 0 0 0])
+  ("workgroups2" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("global-set-key" .
+   [6 0 0 0 0 0 0 0 0 0 0 1 0 1])
+  ("kbd" .
+   [6 0 0])
+  ("highlight-parentheses" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defhydra" .
+   [2 0 0 0 0 0 0 0])
+  ("global-map" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("package-install" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("package" .
+   [1 0 0 0 0 0 0])
+  ("garderob" .
+   [1 0 0 0 0 0 0 0])
+  ("offers" .
+   [3 0 0 0 0 0])
+  ("offer" .
+   [13 0 0 0 0])
+  ("async" .
+   [14 0 0 0 0])
+  ("await" .
+   [14 0 0 0 0])
+  ("innerJoin" .
+   [1 0 0 0 0 0 0 0 0])
+  ("offered_items" .
+   [3 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("get_listings_for_offer_and_user" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_listings_for_user_and_offer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("making_offer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("wanted_items" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("push" .
+   [1 0 0 0])
+  ("get_listings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("receiving_offer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user_query_result" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("bm-next" .
+   [1 0 0 0 0 0 0])
+  ("bm-previous" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("bm-toggle" .
+   [1 0 0 0 0 0 0 0 0])
+  ("hydra-bookmarks" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("malinka" .
+   [0 0 0 0 0 0 1])
+  ("magit" .
+   [1 0 0 0 0])
+  ("accept" .
+   [1 0 0 0 0 0])
+  ("expect" .
+   [8 0 0 0 0 0])
+  ("delete_offer_request" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("statusCode" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("toBe" .
+   [7 0 0 0])
+  ("delete_non_existing_offer_request" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("grep" .
+   [1 0 0 0])))

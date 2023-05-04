@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cuadd
+# key: cuadd
+# --
+(NULL == CU_add_test(test_suite1, "$0", ))

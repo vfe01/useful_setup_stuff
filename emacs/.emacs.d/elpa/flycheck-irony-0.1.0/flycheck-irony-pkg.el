@@ -1,0 +1,2 @@
+;;; Generated package description from flycheck-irony-0.1.0/flycheck-irony.el  -*- no-byte-compile: t -*-
+(define-package "flycheck-irony" "0.1.0" "Flycheck: C/C++ support via Irony" '((emacs "24.1") (flycheck "0.22") (irony "0.2.0")) :commit "34940ae5ab8f4c721d9c1118ebfc3496d7e67a84" :authors '(("Guillaume Papin" . "guillaume.papin@epitech.eu")) :maintainers '(("Guillaume Papin" . "guillaume.papin@epitech.eu")) :maintainer '("Guillaume Papin" . "guillaume.papin@epitech.eu") :keywords '("convenience" "tools" "c") :url "https://github.com/Sarcasm/flycheck-irony/")

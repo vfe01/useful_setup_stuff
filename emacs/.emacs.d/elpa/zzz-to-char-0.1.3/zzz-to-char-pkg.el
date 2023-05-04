@@ -1,0 +1,2 @@
+;;; Generated package description from zzz-to-char-0.1.3/zzz-to-char.el  -*- no-byte-compile: t -*-
+(define-package "zzz-to-char" "0.1.3" "Fancy version of `zap-to-char' command" '((emacs "24.4") (cl-lib "0.5") (avy "0.3.0")) :commit "e571da33a0dde629314847338eedec84b40e9c32" :authors '(("Mark Karpov" . "markkarpov92@gmail.com")) :maintainer '("Mark Karpov" . "markkarpov92@gmail.com") :keywords '("convenience") :url "https://github.com/mrkkrp/zzz-to-char")

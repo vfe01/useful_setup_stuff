@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: request(baseURL)
+# key: reqb
+# --
+await request(baseURL)
+.$0

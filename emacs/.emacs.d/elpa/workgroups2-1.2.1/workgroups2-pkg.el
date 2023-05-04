@@ -1,0 +1,2 @@
+;;; Generated package description from workgroups2-1.2.1/workgroups2.el  -*- no-byte-compile: t -*-
+(define-package "workgroups2" "1.2.1" "New workspaces for Emacs" '((emacs "25.1") (dash "2.8.0")) :commit "737306531f6834227eee2f63b197a23401003d23" :authors '(("Sergey Pashinin <sergey at pashinin dot com>")) :maintainer '("Sergey Pashinin <sergey at pashinin dot com>") :keywords '("session" "management" "window-configuration" "persistence") :url "https://github.com/pashinin/workgroups2")

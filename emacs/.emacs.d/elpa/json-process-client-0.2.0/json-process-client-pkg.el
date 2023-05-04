@@ -1,0 +1,2 @@
+;;; Generated package description from json-process-client-0.2.0/json-process-client.el  -*- no-byte-compile: t -*-
+(define-package "json-process-client" "0.2.0" "Interact with a TCP process using JSON" '((emacs "25.1")) :commit "1d4a1fe2ecc682890dfc75e40054c9697c3046f6" :authors '(("Nicolas Petton" . "nicolas@petton.fr") ("Damien Cassou" . "damien@cassou.me")) :maintainer '("Nicolas Petton" . "nicolas@petton.fr") :url "https://gitlab.petton.fr/nico/json-process-client")

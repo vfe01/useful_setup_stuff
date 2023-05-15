@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: beforeAllCreateDummyUser
+# key: b4acdu
+# --
+
+var post_user_response;
+
+beforeAll(async () => {
+    post_user_response = await create_dummy_user();    
+})
+
+afterAll(async () => {
+    await delete_dummy_user();
+})

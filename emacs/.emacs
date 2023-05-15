@@ -1,9 +1,13 @@
+(require 'benchmark-init)
+
+
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 (global-display-line-numbers-mode)
 (delete-selection-mode )
+
 
 (global-unset-key (kbd "C-x m"))
 (global-unset-key (kbd "C-x o"))
@@ -151,7 +155,7 @@
  '(nrepl-message-colors
    '("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3"))
  '(package-selected-packages
-   '(smartparens malinka flycheck-irony cpputils-cmake company-irony-c-headers yasnippet-snippets which-key neotree hydra evil-nerd-commenter move-text highlight-parentheses rainbow-delimiters zzz-to-char indent-guide aggressive-indent indium tern js2-mode dart-mode bm anzu ace-window workgroups2 sublimity dashboard haskell-mode haskell-emacs speed-type magit flycheck-rust treemacs spacemacs-theme darktooth-theme gruvbox-theme monokai-theme solarized-theme shell-pop rust-mode meghanada projectile dumb-jump auto-complete flycheck yasnippet))
+   '(benchmark-init smartparens malinka flycheck-irony cpputils-cmake company-irony-c-headers yasnippet-snippets which-key neotree hydra evil-nerd-commenter move-text highlight-parentheses rainbow-delimiters zzz-to-char indent-guide aggressive-indent indium tern js2-mode dart-mode bm anzu ace-window workgroups2 sublimity dashboard haskell-mode haskell-emacs speed-type magit flycheck-rust treemacs spacemacs-theme darktooth-theme gruvbox-theme monokai-theme solarized-theme shell-pop rust-mode meghanada projectile dumb-jump auto-complete flycheck yasnippet))
  '(pdf-view-midnight-colors '("#DCDCCC" . "#383838"))
  '(shell-pop-shell-type
    '("ansi-term" "*ansi-term*"
@@ -189,3 +193,5 @@
 
 
 
+;; To disable collection of benchmark data after init is done.
+(add-hook 'after-init-hook 'benchmark-init/deactivate)

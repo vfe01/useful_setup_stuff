@@ -21,6 +21,22 @@
 ;;(with-eval-after-load 'flycheck
 ;;    (add-hook 'flycheck-mode-hook #'flycheck-inline-mode))
 
+(add-hook 'web-mode-hook 'ac-html-enable)
+(add-hook 'web-mode-hook 'auto-rename-tag-mode)
+(add-hook 'web-mode-hook 'emmet-mode)
+(setq web-mode-enable-auto-closing t)
+(setq web-mode-auto-close-style 2)
+  
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
 (require 'package)
 
 (add-to-list 'package-archives
@@ -151,7 +167,7 @@
  '(nrepl-message-colors
    '("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3"))
  '(package-selected-packages
-   '(smartparens malinka flycheck-irony cpputils-cmake company-irony-c-headers yasnippet-snippets which-key neotree hydra evil-nerd-commenter move-text highlight-parentheses rainbow-delimiters zzz-to-char indent-guide aggressive-indent indium tern js2-mode dart-mode bm anzu ace-window workgroups2 sublimity dashboard haskell-mode haskell-emacs speed-type magit flycheck-rust treemacs spacemacs-theme darktooth-theme gruvbox-theme monokai-theme solarized-theme shell-pop rust-mode meghanada projectile dumb-jump auto-complete flycheck yasnippet))
+   '(emmet-mode web-mode auto-rename-tag ac-html smartparens malinka flycheck-irony cpputils-cmake company-irony-c-headers yasnippet-snippets which-key neotree hydra evil-nerd-commenter move-text highlight-parentheses rainbow-delimiters zzz-to-char indent-guide aggressive-indent indium tern js2-mode dart-mode bm anzu ace-window workgroups2 sublimity dashboard haskell-mode haskell-emacs speed-type magit flycheck-rust treemacs spacemacs-theme darktooth-theme gruvbox-theme monokai-theme solarized-theme shell-pop rust-mode meghanada projectile dumb-jump auto-complete flycheck yasnippet))
  '(pdf-view-midnight-colors '("#DCDCCC" . "#383838"))
  '(shell-pop-shell-type
    '("ansi-term" "*ansi-term*"

@@ -1,0 +1,27 @@
+#Comments are preceded by the character '#' and ended by '\n'
+#Categories are preceded by the character '!' and ended by '\n'
+#Install chocolatey and install all the following packages or from ceirtain categories.
+
+!Generally useful
+7zip.install
+notepadplusplus.install
+
+!Browsers
+firefox
+
+!Media players
+vlc.install
+jpegview
+
+!General programming
+git.install
+vscode.install
+
+!Common programming languages
+python
+jre8
+nodejs.install
+
+!Webapp programs
+spotify
+discord.install

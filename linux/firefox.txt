@@ -1,0 +1,2 @@
+Ctrl + tab - swap tabs (shift for other direction)
+

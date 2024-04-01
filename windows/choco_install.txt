@@ -25,3 +25,6 @@ nodejs.install
 !Webapp programs
 spotify
 discord.install
+
+!Other
+libreoffice-fresh
